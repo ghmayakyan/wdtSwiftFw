@@ -24,6 +24,7 @@ class wdtFwTests: XCTestCase {
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        initializeWdtCSwift(url: "wdt://ec2-54-172-211-61.compute-1.amazonaws.com:30000?Enc=2:24759a3202392f34404656ca28f21e54&id=1151869583&iv_change_int=34359738368&num_ports=8&recpv=32&tls=0", dir:"/tmp/transfer");
     }
 
     func testPerformanceExample() throws {
